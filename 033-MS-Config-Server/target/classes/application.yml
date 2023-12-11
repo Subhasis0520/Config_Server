@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/Subhasis0520/ms-configuration-file
